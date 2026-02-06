@@ -5,8 +5,8 @@ const AdminCreateInitialData = async () => {
   try {
     const adminData = {
       name: "Admin",
-      email: "admin123456789@gmail.com",
-      password: "blackclovrradmin@123",
+      email: "admin@gmail.com",
+      password: "admin@123",
       role: UserRole.admin,
       phone: "01711111111",
     };
