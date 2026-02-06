@@ -6,9 +6,9 @@ const AdminCreateInitialData = async () => {
     const adminData = {
       name: "Admin",
       email: "admin@gmail.com",
-      password: "admin@123",
+      password: "blackclovrradmin@123",
       role: UserRole.admin,
-      phone: "01830244297",
+      phone: "01711111111",
     };
     const existingAdmin = await prisma.user.findUnique({
       where: { email: adminData.email },
